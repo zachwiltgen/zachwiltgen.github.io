@@ -1,0 +1,44 @@
+body {
+	background: url(../images/drumline_performance.jpg);
+	background-size: 1400px 900px;
+	background-repeat: none;
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 40px;
+}
+
+#slogan{
+	font-size: 24px;
+	font-style: italic;
+	color: #ffe57e;
+}
+
+hr {
+	width: 750px;
+}
+
+#summary {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.list {
+	width: 300px;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffe57e;
+	border-style: solid;
+	border-width: 2px;
+	padding: 6px 17px;
+}
