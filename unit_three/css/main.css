@@ -1,7 +1,8 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background: url(../images/drumline_performance.jpg);
-	background-size: 1400px 900px;
-	background-repeat: none;
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'Bitter', serif;
 	font-size: 20px;
 	color: #fff;
@@ -9,35 +10,30 @@ body {
 }
 
 h1{
-	font-size: 40px;
+	font-size:2em;
 }
-
+hr {
+	width: 40em;
+}
+a {
+	text-decoration: none;
+	color: #ffe57e;
+	border-style: solid;
+	border-width: 2px;
+	padding: .5em 1em;
+}
 #slogan{
-	font-size: 24px;
+	font-size: 1.5em;
 	font-style: italic;
 	color: #ffe57e;
 }
-
-hr {
-	width: 750px;
-}
-
 #summary {
-	margin-left: 226px;
-	margin-right: 226px;
+	margin:0 auto 0 auto;
 }
 
 .list {
 	width: 300px;
 	margin: 0 auto;
 	text-align: left;
-	padding-bottom: 10px;
-}
-
-a {
-	text-decoration: none;
-	color: #ffe57e;
-	border-style: solid;
-	border-width: 2px;
-	padding: 6px 17px;
+	padding-bottom: .5em;
 }
