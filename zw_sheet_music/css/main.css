@@ -1,25 +1,31 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	background: url(../images/background_image2.png) no-repeat center fixed;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	text-align: center;
-	text-decoration: none;
+	color: #fff;
 }
 
-nav, #intro, #questions {
+nav, #intro {
 	padding: 1em;
 }
 
-nav, section div, #featured {
-	background: #949494;
+nav, #contact {
+	background: #5e9ff2;
 }
 
-header, img {
+img, #sheets {
 	text-align: left;
 }
 
-h2, section div {
+p, input, textarea, #submit {
+	font-family: 'Sanchez', serif;
+}
+
+#contact {
 	padding-bottom: 1em;
 }
 
@@ -27,13 +33,38 @@ p, #featured {
 	padding: 1.5em;
 }
 
-section#questions > a, #submit {
-	background: #3475b8;
+section#questions > a, #sheets a, #benefits div, {
+	background: #5e9ff2;
 	color: #fff;
 }
 
-header {
-	max-width: 60em;
+p {
+	line-height: 1.25em;
+}
+
+#questions > a {
+	border-radius: 0.25em;
+	padding: .6em;
+	margin: 1em;
+}
+
+#questions > a:hover, #submit:hover {
+	background: #fff;
+	color: #458c5e;
+	border-color: #458c5e;
+}
+
+#questions > p {
+	padding: 0em;
+	margin-top: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
 }
 
 h1 {
@@ -41,68 +72,146 @@ h1 {
 }
 
 iframe {
+	float: left;
+	height: 10em;
+	width: 16em;
 	margin: .25em;
 }
 
-img {
+header img {
 	width: 12em;
-	position: absolute;
+	margin: 1em;
+	float: left;
+}
+
+header img:hover {
+	content: url(../images/zwmusiccustoms_hover.svg);
+}
+
+audio {
+	float: left;
 }
 
 nav {
 	clear: both;
-	display: block;
 	text-align: center;
+}
+
+nav a {
+	border-radius: 0.25em;
+	margin: 3em;
+	padding: 1em;
+}
+
+nav a:hover {
+	background: #458c5e;
 }
 
 h3 {
 	font-size: 1.5em;
 	font-weight: bold;
-	padding-bottom: 1.75em;
+	padding: 1em;
 }
 
 form {
-	display: inline-block;
+	display: block;
+	width: 50em;
 	font-size: .75em;
+	margin: 0 auto;
 }
 
-input, text-area {
-	font-family: 'Roboto Slab', serif;
+input, textarea {
+	display: block;
 	font-size: 1.2em;
 	width: 40em;
 	height: 3em;
 	border: none;
 	margin: .5em;
+	padding: 1em;
 }
 
 footer {
-	background: #cccccc;
+	background: #fff;
+	color: #5e9ff2;
+	clear: both;
 	padding: .75em;
 }
 
-section#questions > a {
-	padding: .6em;
-	margin: 5em;
-	margin-top: 5em;
+#contact {
+	clear: both;
+	padding-bottom: 1em;
+}
+
+#contact img {
+	width: 4em;
+}
+
+#contact img:hover {
+	transform: translate(0, 0.25em);
+}
+
+#contact > p {
+	width: 36em;
+	margin: 0 auto;
 }
 
 #details {
 	height: 12em;
 }
 
-#intro {
-	margin: 0 auto;
-	width: 42em;
+#email {
+	color: inherit;
+}
+
+#email:hover {
+	color: rgba(255, 255, 255, 0.5);
 }
 
 #featured {
-	width: 66.67%;
+	height: 25em;
+	width: 36em;
 	margin: 0 auto;
 	margin-bottom: 3em;
 }
 
+#benefits div {
+	float: left;
+	width: 31.33%;
+	margin: 1%;
+}
+
+#benefits img {
+	padding-top: 1em;
+}
+
+#sheets a {
+	font-size: .75em;
+	margin: 2em;
+	padding: .5em;
+}
+
 #questions {
-	text-align: right;
+	float: right;
+	margin-top: 2em;
+	margin-right: 2em;
+}
+
+section#questions > a, #submit {
+	background: #458c5e;
+}
+
+#intro > p {
+	border-radius: 0.25em;
+	background: rgba(69, 140, 94, 0.5);
+	margin: 0 auto;
+	width: 36em;
+}
+
+
+#submit {
+	font-family: inherit;
+	border-radius: 0.25em;
+	color: #fff;
 }
 
 .clearfix:after {
