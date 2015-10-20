@@ -9,11 +9,11 @@ body {
 	color: #fff;
 }
 
-nav, #intro {
+#intro, #contact {
 	padding: 1em;
 }
 
-nav, #contact {
+#how, #contact, section#questions > a, #sheets a {
 	background: #5e9ff2;
 }
 
@@ -25,16 +25,11 @@ p, input, textarea, #submit {
 	font-family: 'Sanchez', serif;
 }
 
-#contact {
-	padding-bottom: 1em;
-}
-
-p, #featured {
+p {
 	padding: 1.5em;
 }
 
-section#questions > a, #sheets a, #benefits div, {
-	background: #5e9ff2;
+a, section#questions > a, #sheets a, #how div {
 	color: #fff;
 }
 
@@ -43,12 +38,15 @@ p {
 }
 
 #questions > a {
-	border-radius: 0.25em;
-	padding: .6em;
 	margin: 1em;
 }
 
-#questions > a:hover, #submit:hover {
+#questions > a {
+	border-radius: 0.25em;
+	padding: .6em;
+}
+
+footer, #questions > a:hover, #submit:hover {
 	background: #fff;
 	color: #458c5e;
 	border-color: #458c5e;
@@ -67,79 +65,137 @@ a:visited {
 	color: inherit;
 }
 
-h1 {
-	font-size: 1.25em;
+nav {
+	padding-top: 4.15em;
 }
 
-iframe {
+video, header img, audio, nav, #questions {
 	float: left;
+}
+
+video {
 	height: 10em;
 	width: 16em;
 	margin: .25em;
 }
 
+header div {
+	width: 61em;
+	margin: 0 auto;
+}
+
+header {
+	height: 6.07em;
+}
+
+header img, nav, #questions {
+	display: inline;
+}
+
 header img {
-	width: 12em;
-	margin: 1em;
-	float: left;
+	width: 15em;
 }
 
 header img:hover {
-	content: url(../images/zwmusiccustoms_hover.svg);
+	content: url(../images/zwmusiccustoms.svg);
 }
 
-audio {
-	float: left;
-}
-
-nav {
+footer, #contact {
 	clear: both;
-	text-align: center;
+}
+
+input, textarea {
+	padding: 1em;
 }
 
 nav a {
-	border-radius: 0.25em;
-	margin: 3em;
-	padding: 1em;
+	margin: 2.5em;
+	padding: .25em;
 }
 
 nav a:hover {
+	border-bottom: .3em solid #5e9ff2;
+}
+
+section#questions > a, #submit  {
 	background: #458c5e;
 }
 
-h3 {
-	font-size: 1.5em;
+h1 {
+	font-size: 3em;
 	font-weight: bold;
-	padding: 1em;
+	line-height: 1em;
+	padding: .8em;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#featured h1 {
+	padding: 2.5em .8em;
+}
+
+form, input, textarea {
+	display: block;
+}
+
+form, #contact > p, #featured {
+	margin: 0 auto;
 }
 
 form {
+	float: left;
 	display: block;
-	width: 50em;
+	width: 60%;
 	font-size: .75em;
-	margin: 0 auto;
 }
 
 input, textarea {
 	display: block;
 	font-size: 1.2em;
-	width: 40em;
+	width: 37em;
 	height: 3em;
 	border: none;
 	margin: .5em;
-	padding: 1em;
+	color: #5a6b8c;
 }
 
 footer {
-	background: #fff;
 	color: #5e9ff2;
-	clear: both;
 	padding: .75em;
 }
 
-#contact {
+header, #about, #featured, #how {
+	display: block;
 	clear: both;
-	padding-bottom: 1em;
+}
+
+.title {
+	width: 40%;
+	float: left;
+}
+
+#videos {
+	float: left;
+	width: 60%;
+}
+
+#about {
+	width: 61em;
+	margin: 0 auto;
+}
+
+#examples {
+	clear: both;
+}
+
+#about p, #about h1 {
+	float: left;
+}
+
+#contact {
+	width: 61em;
+	margin: 0 auto;
 }
 
 #contact img {
@@ -152,7 +208,6 @@ footer {
 
 #contact > p {
 	width: 36em;
-	margin: 0 auto;
 }
 
 #details {
@@ -168,20 +223,50 @@ footer {
 }
 
 #featured {
-	height: 25em;
-	width: 36em;
+	width: 61em;
+}
+
+header, #contact {
+	background: #5a6b8c;
+}
+
+#how {
+	clear: both;
+	background: #5e9ff2;
+	width: 61em;
 	margin: 0 auto;
-	margin-bottom: 3em;
 }
 
-#benefits div {
+#how {
+	background: #5e9ff2;
+	clear: both;
+	width: 100%;
+}
+
+#how p, #how h1 {
+	background: #5e9ff2;
+}
+
+#how p {
 	float: left;
-	width: 31.33%;
-	margin: 1%;
+	width: 60%;
+	padding: 2.26em;
 }
 
-#benefits img {
+#how div.icon {
+	background: #5e9ff2;
+	float: left;
+	width: 33.33%;
+}
+
+#how img {
 	padding-top: 1em;
+	width: 5em;
+}
+
+#help {
+	width: 61em;
+	margin: 0 auto;
 }
 
 #sheets a {
@@ -191,31 +276,24 @@ footer {
 }
 
 #questions {
-	float: right;
 	margin-top: 2em;
-	margin-right: 2em;
 }
 
-section#questions > a, #submit {
-	background: #458c5e;
-}
-
-#intro > p {
-	border-radius: 0.25em;
+#intro {
+	text-align: left;
 	background: rgba(69, 140, 94, 0.5);
-	margin: 0 auto;
-	width: 36em;
+	padding: 3em;
+	width: 60%;
 }
-
 
 #submit {
+	color: inherit;
 	font-family: inherit;
 	border-radius: 0.25em;
-	color: #fff;
 }
 
 .clearfix:after {
-     content: “.”;
+     content: ".";
      visibility: hidden;
      display: block;
      height: 0;
