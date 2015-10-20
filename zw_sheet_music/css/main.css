@@ -13,7 +13,7 @@ body {
 	padding: 1em;
 }
 
-#how, #contact, section#questions > a, #sheets a {
+#how, section#questions > a, #sheets a {
 	background: #5e9ff2;
 }
 
@@ -46,7 +46,7 @@ p {
 	padding: .6em;
 }
 
-footer, #questions > a:hover, #submit:hover {
+#questions > a:hover, #submit:hover {
 	background: #fff;
 	color: #458c5e;
 	border-color: #458c5e;
@@ -76,7 +76,6 @@ video, header img, audio, nav, #questions {
 video {
 	height: 10em;
 	width: 16em;
-	margin: .25em;
 }
 
 header div {
@@ -98,10 +97,6 @@ header img {
 
 header img:hover {
 	content: url(../images/zwmusiccustoms.svg);
-}
-
-footer, #contact {
-	clear: both;
 }
 
 input, textarea {
@@ -132,7 +127,7 @@ h1 {
 }
 
 #featured h1 {
-	padding: 2.5em .8em;
+	padding: 2em 0;
 }
 
 form, input, textarea {
@@ -161,8 +156,9 @@ input, textarea {
 }
 
 footer {
-	color: #5e9ff2;
-	padding: .75em;
+	background: #5a6b8c;
+	color: #fff;
+	padding: 4em;
 }
 
 header, #about, #featured, #how {
@@ -175,18 +171,18 @@ header, #about, #featured, #how {
 	float: left;
 }
 
+.container {
+	width: 61em;
+	margin: 0 auto;
+}
+
 #videos {
 	float: left;
 	width: 60%;
 }
 
 #about {
-	width: 61em;
-	margin: 0 auto;
-}
-
-#examples {
-	clear: both;
+	background: rgba(69, 140, 94, 0.5);
 }
 
 #about p, #about h1 {
@@ -226,47 +222,39 @@ header, #about, #featured, #how {
 	width: 61em;
 }
 
-header, #contact {
+header {
 	background: #5a6b8c;
 }
 
 #how {
 	clear: both;
-	background: #5e9ff2;
-	width: 61em;
+	background: rgba( 94, 159, 242, 0.5);
 	margin: 0 auto;
 }
 
-#how {
-	background: #5e9ff2;
-	clear: both;
-	width: 100%;
-}
-
-#how p, #how h1 {
-	background: #5e9ff2;
-}
-
-#how p {
+#help> p {
 	float: left;
 	width: 60%;
-	padding: 2.26em;
+	padding: 2.25em;
 }
 
 #how div.icon {
-	background: #5e9ff2;
 	float: left;
 	width: 33.33%;
 }
 
 #how img {
-	padding-top: 1em;
-	width: 5em;
+	width: 6em;
+}
+
+#benefits {
+	width: 61em;
 }
 
 #help {
 	width: 61em;
 	margin: 0 auto;
+	padding: 2em 0;
 }
 
 #sheets a {
@@ -281,7 +269,6 @@ header, #contact {
 
 #intro {
 	text-align: left;
-	background: rgba(69, 140, 94, 0.5);
 	padding: 3em;
 	width: 60%;
 }
