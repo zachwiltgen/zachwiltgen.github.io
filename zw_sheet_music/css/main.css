@@ -9,15 +9,43 @@ body {
 	color: #fff;
 }
 
-#intro, #contact {
-	padding: 1em;
+iframe, header img, audio, nav, h1, form, #history p, #history img, #videos, #about p, #cta, #help p, #how div.icon, .left, .right {
+	float: left;
 }
 
-#how, section#questions > a, #sheets a {
-	background: #5e9ff2;
+#contact > p, #featured, h1, header div, .container, #how, #contact, #contact img, #help, #papers, #aboutform {
+	margin: 0 auto;
 }
 
-img, #sheets {
+header, #about, #featured, #how, #contact, #contact img, #benefits, .greenaudio, .blueaudio {
+	clear: both;
+}
+
+#intro, #history p, form, #help > p, #papers, .left, #aboutcta {
+	width: 60%;
+}
+
+#history, #contact, #about, #featured, footer, #help, #papers {
+	padding: 3em 0;
+}
+
+input, textarea, header, #about, #featured, #how, #contact img {
+	display: block;
+}
+
+header div, .container, #contact, #featured, #benefits, #help {
+	width: 61em;
+}
+
+form p, footer p, #aboutform p, .right, #aboutcta {
+	text-align: center;
+}
+
+#history img, #cta, .right {
+	width: 40%;
+}
+
+img, #sheets, p, #intro {
 	text-align: left;
 }
 
@@ -25,82 +53,89 @@ p, input, textarea, #submit {
 	font-family: 'Sanchez', serif;
 }
 
-p {
-	padding: 1.5em;
+#contact h1 {
+	padding: .5em 0;
 }
 
-a, section#questions > a, #sheets a, #how div {
+a, #sheets a, #how div {
 	color: #fff;
 }
 
+.blueaudio:hover, #submit:hover, #how img {
+	background: #5e9ff2;
+}
+
+header img, nav {
+	display: inline;
+}
+
+input, textarea {
+	font-size: 1.2em;
+	width: 37em;
+	height: 3em;
+	border: none;
+	margin: .5em auto;
+	color: #5a6b8c;
+	padding: 1em;
+}
+
+header, footer {
+	background: #5a6b8c;
+}
+
+#submit, .greenaudio:hover {
+	background: #458c5e;
+}
+
+#about, .greenaudio {
+	background: rgba(69, 140, 94, 0.5);
+}
+
+#about, .greenaudio {
+	background: rgba(69, 140, 94, 0.5);
+}
+
+#email:hover, #sheets a:hover{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#how, .blueaudio {
+	background: rgba( 94, 159, 242, 0.5);
+}
+
+#sheets a, #sheets p {
+	font-family: 'Open Sans', sans-serif;
+	padding: 1.25em;
+}
+
+.greenaudio, .blueaudio {
+	padding: 1.5em 1em;
+}
+
 p {
+	padding: 1.5em;
 	line-height: 1.25em;
-}
-
-#questions > a {
-	margin: 1em;
-}
-
-#questions > a {
-	border-radius: 0.25em;
-	padding: .6em;
-}
-
-#questions > a:hover, #submit:hover {
-	background: #fff;
-	color: #458c5e;
-	border-color: #458c5e;
-}
-
-#questions > p {
-	padding: 0em;
-	margin-top: 1.5em;
 }
 
 a {
 	text-decoration: none;
 }
 
-a:visited {
-	color: inherit;
-}
-
 nav {
 	padding-top: 4.15em;
 }
 
-video, header img, audio, nav, #questions {
-	float: left;
-}
-
-video {
-	height: 10em;
-	width: 16em;
-}
-
-header div {
-	width: 61em;
-	margin: 0 auto;
+iframe {
+	width: 100%;
+	padding: 0 4em;
 }
 
 header {
 	height: 6.07em;
 }
 
-header img, nav, #questions {
-	display: inline;
-}
-
 header img {
 	width: 15em;
-}
-
-header img:hover {
-	content: url(../images/zwmusiccustoms.svg);
-}
-
-input, textarea {
-	padding: 1em;
 }
 
 nav a {
@@ -108,91 +143,43 @@ nav a {
 	padding: .25em;
 }
 
-nav a:hover {
-	border-bottom: .3em solid #5e9ff2;
-}
-
-section#questions > a, #submit  {
-	background: #458c5e;
-}
-
 h1 {
 	font-size: 3em;
 	font-weight: bold;
 	line-height: 1em;
-	padding: .8em;
-	position: relative;
-	margin: 0 auto;
-	width: 100%;
-}
-
-#featured h1 {
-	padding: 2em 0;
-}
-
-form, input, textarea {
-	display: block;
-}
-
-form, #contact > p, #featured {
-	margin: 0 auto;
+	padding: .1em 0;
+	padding-right: .8em;
+	text-align: right;
 }
 
 form {
-	float: left;
-	display: block;
-	width: 60%;
 	font-size: .75em;
 }
 
-input, textarea {
-	display: block;
-	font-size: 1.2em;
-	width: 37em;
-	height: 3em;
-	border: none;
-	margin: .5em;
-	color: #5a6b8c;
+header img:hover {
+	content: url(../images/zwmusiccustoms.svg);
 }
 
-footer {
-	background: #5a6b8c;
-	color: #fff;
-	padding: 4em;
+nav a:hover {
+	border-bottom: .3em solid #5e9ff2;
 }
 
-header, #about, #featured, #how {
-	display: block;
-	clear: both;
+a:visited {
+	color: inherit;
 }
 
-.title {
-	width: 40%;
-	float: left;
+#help h1 {
+	float: right;
 }
 
-.container {
-	width: 61em;
-	margin: 0 auto;
-}
+#featured h1 {
+	margin-top: 1.7em;
+}	
 
-#videos {
-	float: left;
-	width: 60%;
-}
-
-#about {
-	background: rgba(69, 140, 94, 0.5);
-}
-
-#about p, #about h1 {
-	float: left;
-}
-
-#contact {
-	width: 61em;
-	margin: 0 auto;
-}
+#contact h1 {
+	width: 100%;
+	text-align: center;
+} 
 
 #contact img {
 	width: 4em;
@@ -202,75 +189,94 @@ header, #about, #featured, #how {
 	transform: translate(0, 0.25em);
 }
 
-#contact > p {
-	width: 36em;
-}
-
 #details {
 	height: 12em;
 }
 
-#email {
-	color: inherit;
-}
-
-#email:hover {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-#featured {
-	width: 61em;
-}
-
-header {
-	background: #5a6b8c;
-}
-
-#how {
-	clear: both;
-	background: rgba( 94, 159, 242, 0.5);
-	margin: 0 auto;
-}
-
-#help> p {
-	float: left;
-	width: 60%;
-	padding: 2.25em;
-}
-
 #how div.icon {
-	float: left;
 	width: 33.33%;
+}
+
+#how div.icon p {
+	width: 100%;
+	padding: 1.5em;
 }
 
 #how img {
 	width: 6em;
+	border-radius: 100%;
+	padding: 1.2em 0;
+}
+
+#how img:hover {
+	transform: scale(1.25, 1.25);
+}
+
+#videos {
+	width: 74%;
+}
+
+#title1 {
+	float: left;
+	width: 26%;
+}
+
+#title1 h1 {
+	float: none;
+	margin: .5em 0;
+	border-right: .25em solid #458c5e;
+}
+
+#title2 {
+	float: left;
+	width: 26%;
+}
+
+#title2 h1 {
+	float: none;
+	margin: 2em 0;
+	border-right: .25em solid #5a6b8c;
+}
+
+#title3 {
+	float: left;
+	width: 26%;
+}
+
+#title3 h1 {
+	float: none;
+	margin: .5em 0;
+	border-right: .25em solid #5e9ff2;
+}
+
+#about p {
+	padding: 1.75em 4em;
+	width: 74%;
+}
+
+#how p {
+	padding: 3em 4em;
+	width: 74%;
 }
 
 #benefits {
-	width: 61em;
+	padding-top: 2.5em;
 }
 
-#help {
-	width: 61em;
-	margin: 0 auto;
-	padding: 2em 0;
+#sheets {
+	padding-bottom: 4em;
 }
 
-#sheets a {
-	font-size: .75em;
-	margin: 2em;
-	padding: .5em;
+#sheets p {
+	padding: .3em 0;
 }
 
-#questions {
-	margin-top: 2em;
+.right {
+	margin-top: 1em;
 }
 
-#intro {
-	text-align: left;
-	padding: 3em;
-	width: 60%;
+#aboutform {
+	float: none;
 }
 
 #submit {
@@ -279,10 +285,126 @@ header {
 	border-radius: 0.25em;
 }
 
+.menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 4em;
+	margin-top: 1em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 2.5em;
+	height: .3em;
+	margin: .75em 0;
+	background: #fff;
+	z-index: 99;
+}
+
+.responsive-menu {
+	display: none;
+	list-style: none;
+	text-align: right;
+}
+
+.expand {
+	display: block !important; 
+}
+
+.mobile-nav {
+	display: none;
+	float: right;
+	width: 6%;
+	margin: 1em;
+}
+
 .clearfix:after {
      content: ".";
      visibility: hidden;
      display: block;
      height: 0;
      clear: both;
+}
+
+@media only screen and (max-width: 1233px) {
+	header div, .container, #contact, #featured, #benefits, #help {
+		width: 100%;
+	}
+
+	input, textarea {
+		width: 90%;
+	}
+
+	nav a {
+		margin: 1.25em;
+	}
+
+	#title1, #title2, #title3 {
+		width: 16em;
+	}
+
+	#about p, #videos, #how p {
+		width: 65%;
+	}
+
+	#how p {
+		padding: 2em 4em;
+	}
+}
+
+@media only screen and (max-width: 952px) {
+	nav {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	#title1 h1, #title2 h1, #title3 h1 {
+		text-align: left;
+		border-right: none;
+		margin: 0;
+		margin-left: 1em;
+		padding: 0;
+	}
+
+	#title1 h1 {
+		border-bottom: .25em solid #458c5e;
+	}
+
+	#title2 h1 {
+		border-bottom: .25em solid #5a6b8c;
+	}
+
+	#title3 h1 {
+		border-bottom: .25em solid #5e9ff2;
+	}
+
+	#about p, #how p {
+		clear: both;
+		width: 100%;
+		padding: 2em 3em;
+	}
+
+	#videos {
+		clear: both;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#how div.icon {
+		clear: both;
+		width: 90%;
+	}
+
+	iframe {
+		padding: 2em 3em;
+	}
 }

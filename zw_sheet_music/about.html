@@ -5,43 +5,40 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
-</head>
+	<script src="js/script.js" type="text/javascript"></script>
 </head>
 <body>
-	<header>
+	<header class="clearfix">
 		<div>
-			<a href="index.html"><img src="images/zwmusiccustoms.svg" alt="ZW Sheet Music Logo" title="Logo"></a>
-			<section id="questions">
-				<a href="index.html#form">Questions?</a>
-				<p>Email me at <a id="email" href="mailto:zach.m.wiltgen@gmail.com">zach.m.wiltgen@gmail.com</a></p>
-			</section>
-		</div>
-		<nav class="clearfix">
-			<a href="index.html">Home</a>
-			<a href="custom_music.html">Custom Music</a>
+		<a href="index.html"><img src="images/zwmusiccustoms_hover2.svg" alt="ZW Sheet Music Logo" title="Logo"></a>
+		<nav>
+			<a href="index.html#customs">Custom Music</a>
 			<a href="sheet_music.html">Sheet Music</a>
 			<a href="about.html">About</a>
+			<a href="about.html#form">Inquiries</a>
 		</nav>
+		</div>
 	</header>
-	<main>
-		<p>Lorem ipsum dolor sit amet, aliquid quaestio incorrupte an pri. Pri dolor fuisset inimicus id, an iriure contentiones has. Nam te quodsi deseruisse adversarium, ea nam elit ullamcorper, mel esse oratio partem ex. Pro deserunt convenire ei. Mea eu inimicus instructior.</p>
-		<p>Nec te postea scriptorem, vel maiorum epicuri dissentiet te, ius ne labore ornatus albucius. Vix ea iisque referrentur, quo ne omnes doming, eu quod erat euismod sea. In soleat admodum sententiae usu, velit persequeris qui ei. Vix no rebum denique consequuntur, pri consul numquam ad.</p>
-	</main>
-	<section class="clearfix">
-		<div id="contact">
-			<h3><a name="form">Let's Work Together</a></h3>
+	<div class="container">
+	<section id="history">
+		<p> We have a love and passion for writing and performing that shows in our products and services. We have over 8 years of experience in drumlines and marching bands, many of those spent performing works of our own. We understand the different needs of directors and students. Our music is made to answer the demands of your program and feel great in the hands of its performers. Good music can be bought, but great music is collaboration with a strong relationship between its writers and performers.</p>
+		<img src="images/about.jpg" alt="drumline performing" title="Illini Drumline 2014">
+	</section>
+	<a name="form"><section id="contact" class="clearfix"></a>
+			<h1>Let's Work Together</h1>
 			<img src="images/handshake.png" alt="Let's Work Together" title="handshake">
-			<p>Submit any questions or business inquiries with the information below and I will get back to you within 24 hours.</p>
-			<form action="mailto:zach.m.wiltgen@gmail.com" method="POST" enctype="multipart/form-data" name="ZW Sheet Music Inquiry">
+			<p id="aboutcta">Submit any questions or business inquiries with the information below and I will get back to you within 24 hours.</p>
+			<form id="aboutform" action="contact_form.php" method="POST" enctype="multipart/form-data" name="ZW Music Customs Inquiry">
 				<input type="text" name="name" placeholder="First and Last Name">
 				<input type="text" name="email" placeholder="Email">
-				<input type="text" name="affiliation" placeholder="School or Organization of Affiliation">
+				<input type="text" name="affiliation" placeholder="School or Organization">
 				<textarea id="details" type="text" name="request" placeholder="Anything that will help me understand what you need..."></textarea>
 				<input id="submit" type="submit" value="Submit">
+				<p>Or email me at <a id="email" href="mailto:zach.m.wiltgen@gmail.com">zach.m.wiltgen@gmail.com</a></p>
 			</form>
-		</div>
 	</section>
-	<footer>
+	</div>
+	<footer class="clearfix">
 		<p>&copy; 2015 ZW Music Customs</p>
 	</footer>
 </body>
