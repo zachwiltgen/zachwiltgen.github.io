@@ -10,7 +10,7 @@
 <body>
 	<header class="clearfix">
 		<div>
-		<a href="index.html"><img src="images/zwmusiccustoms_hover2.svg" alt="ZW Sheet Music Logo" title="Logo"></a>
+		<a href="index.html"><img src="images/zwmusiccustoms_hover2	.svg" alt="ZW Sheet Music Logo" title="Logo"></a>
 		<nav>
 			<a href="index.html#customs">Custom Music</a>
 			<a href="sheet_music.html">Sheet Music</a>
@@ -18,6 +18,35 @@
 			<a href="about.html#form">Inquiries</a>
 		</nav>
 		</div>
+		<div class="mobile-nav">
+     		<div class="menu-btn" id="menu-btn">
+			<div></div>
+			<span></span>
+			<span></span>
+			<span></span>
+     		</div>
+			<div class="responsive-menu">
+        		<ul>
+           		<li><a href="index.html#customs">Custom Music</a></li>
+           		<li><a href="sheet_music.html">Sheet Music</a></li>
+           		<li><a href="about.html">About</a></li>
+           		<li><a href="index.html#form">Inquiries</a></li>
+        		</ul>
+     		</div>
+		</div>
+		<script type="text/javascript">
+			jQuery(function($){
+		    	$( '.menu-btn' ).click(function(){
+		    		$('.responsive-menu').addClass('expand')
+		    		$('.menu-btn').addClass('btn-none')
+		    	})
+
+		    	$( '.close-btn' ).click(function(){
+		    		$('.responsive-menu').removeClass('expand')
+		    		$('.menu-btn').removeClass('btn-none')
+		    	})
+		  	})
+		 </script>
 	</header>
 	<div class="container">
 	<section id="history">
