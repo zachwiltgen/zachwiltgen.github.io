@@ -372,7 +372,7 @@ a:visited {
 		border-right: none;
 		margin: 0;
 		margin-left: 1em;
-		padding: 0;
+		padding: .25em 0;
 	}
 
 	#title1 h1 {
@@ -388,7 +388,6 @@ a:visited {
 	}
 
 	#about p, #how p {
-		clear: both;
 		width: 100%;
 		padding: 2em 3em;
 	}
@@ -400,11 +399,34 @@ a:visited {
 	}
 
 	#how div.icon {
-		clear: both;
-		width: 90%;
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+		padding: 1em 0;
+	}
+
+	#how div.icon p, #how img {
+		float: left;
+	}
+
+	#how div.icon p {
+		width: 75%;
 	}
 
 	iframe {
 		padding: 2em 3em;
 	}
+
+	#cta {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	form {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
 }
