@@ -1,0 +1,434 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+	background: url(../images/background_image2.png) no-repeat center fixed;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+iframe {
+	float: left;
+	width: 100%;
+	padding: 0 4em;
+}
+
+header img {
+	float: left;
+	display: inline;
+	width: 15em;
+}
+
+audio {
+	float: left;
+}
+
+nav {
+	float: left;
+	display: inline;
+	padding-top: 4.15em;
+}
+
+h1 {
+	float: left;
+	margin: 0 auto;
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1em;
+	padding: .1em 0;
+	padding-right: .8em;
+	text-align: right;
+}
+
+form {
+	float: left;
+	width: 60%;
+	font-size: .75em;
+}
+
+#history p {
+	float: left;
+	width: 60%;
+}
+
+#history img {
+	float: left;
+	width: 40%;
+}
+
+#videos {
+	float: left;
+	width: 74%;
+}
+
+#about p {
+	float: left;
+	padding: 1.75em 4em;
+	width: 74%;
+}
+
+#cta {
+	float: left;
+	width: 40%;
+}
+
+#help p {
+	float: left;
+
+}
+
+#how div.icon {
+	float: left;
+	width: 33.33%;
+}
+
+.left {
+	float: left;
+	width: 60%;
+}
+
+.right {
+	float: left;
+	text-align: center;
+	width: 40%;
+	margin-top: 1em;
+
+}
+
+#contact > p {
+	margin: 0 auto;
+
+}
+
+#featured {
+	margin: 0 auto;
+	clear: both;
+	padding: 3em 0;
+	display: block;
+	width: 61em;
+}
+
+header div {
+	margin: 0 auto;
+	width: 61em;
+}
+
+.container {
+	margin: 0 auto;
+	width: 61em;
+}
+
+#how {
+	margin: 0 auto;
+	clear: both;
+	display: block;
+	background: rgba( 94, 159, 242, 0.5);
+}
+
+#contact {
+	margin: 0 auto;
+	clear: both;
+	padding: 3em 0;
+	width: 61em;
+}
+
+#contact img {
+	margin: 0 auto;
+	clear: both;
+	display: block;
+	width: 4em;
+
+}
+
+#help {
+	margin: 0 auto;
+	padding: 3em 0;
+	width: 61em;
+}
+
+#papers {
+	margin: 0 auto;
+	width: 60%;
+	padding: 3em 0;
+
+}
+
+#aboutform {
+	margin: 0 auto;
+	float: none;
+}
+
+header {
+	background: #5a6b8c;
+	clear: both;
+	display: block;
+	height: 6.07em;
+}
+
+#about {
+	background: rgba(69, 140, 94, 0.5);
+	clear: both;
+	display: block;
+	padding: 3em 0;
+}
+
+#benefits {
+	clear: both;
+	padding-top: 2.5em;
+	width: 61em;
+}
+
+.greenaudio {
+	background: rgba(69, 140, 94, 0.5);
+	clear: both;
+	padding: 1.5em 1em;
+}
+
+.blueaudio {
+	background: rgba( 94, 159, 242, 0.5);
+	clear: both;
+	padding: 1.5em 1em;
+}
+
+#intro {
+	text-align: left;
+	width: 60%;
+}
+
+#help > p {
+	width: 60%;
+}
+
+#aboutcta {
+	text-align: center;
+	width: 60%;
+}
+
+footer {
+	background: #5a6b8c;
+	padding: 3em 0;
+}
+
+input, textarea {
+	border: none;
+	color: #5a6b8c;
+	display: block;
+	font-family: 'Sanchez', serif;
+	font-size: 1.2em;
+	height: 3em;
+	margin: .5em auto;
+	padding: 1em;
+	width: 37em;
+}
+
+form p {
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+}
+
+#aboutform p {
+	text-align: center;
+}
+
+img {
+	text-align: left;
+}
+
+#sheets {
+	text-align: left;
+	padding-bottom: 4em;
+}
+
+p {
+	font-family: 'Sanchez', serif;
+	line-height: 1.25em;
+	padding: 1.5em;
+	text-align: left;
+}
+
+#submit {
+	background: #458c5e;
+	border-radius: 0.25em;
+	color: inherit;
+	font-family: inherit;
+}
+
+#contact h1 {
+	padding: .5em 0;
+	width: 100%;
+	text-align: center;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#sheets a {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 1.25em;
+}
+
+#how div {
+	color: #fff;
+}
+
+#how img {
+	background: #5e9ff2;
+	border-radius: 100%;
+	padding: 1.2em 0;
+	width: 6em;
+}
+
+.blueaudio:hover {
+	background: #5e9ff2;
+}
+
+#submit:hover {
+	background: #5e9ff2;
+}
+
+.greenaudio:hover {
+	background: #458c5e;
+}
+
+#email:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#sheets a:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#sheets p {
+	font-family: 'Open Sans', sans-serif;
+	padding: .3em 0;
+}
+
+header img:hover {
+	content: url(../images/zwmusiccustoms.svg)
+}
+
+nav a:hover {
+	border-bottom: .3em solid #5e9ff2;
+}
+
+a:visited {
+	color: inherit;
+}
+
+#help h1 {
+	float: right;
+}
+
+#featured h1 {
+	margin-top: 1.7em;
+}
+
+#contact img:hover {
+	transform: translate(0, 0.25em);
+}
+
+#details {
+	height: 12em;
+}
+
+#how div.icon p {
+	width: 100%;
+	padding: 1.5em;
+}
+
+#how img:hover {
+	transform: scale(1.25, 1.25);
+}
+
+#title1 {
+	float: left;
+	width: 26%;
+}
+
+#title1 h1 {
+	float: none;
+	margin: .5em 0;
+	border-right: .25em solid #458c5e;
+}
+
+#title2 {
+	float: left;
+	width: 26%;
+}
+
+#title2 h1 {
+	float: none;
+	margin: 2em 0;
+	border-right: .25em solid #5a6b8c;
+}
+
+#title3 {
+	float: left;
+	width: 26%;
+}
+
+#title3 h1 {
+	float: none;
+	margin: .5em 0;
+	border-right: .25em solid #5e9ff2;
+}
+
+#how p {
+	padding: 3em 4em;
+	width: 74%;
+}
+
+..menu-btn div {
+	position: absolute;
+	left: 100%;
+	top: 64%;
+	padding-right: 4em;
+	margin-top: 1em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 2.5em;
+	height: .3em;
+	margin: .75em 0;
+	background: #fff;
+	z-index: 99;
+}
+
+.responsive-menu {
+	display: none;
+	list-style: none;
+	text-align: right;
+}
+
+.expand {
+	display: block !important; 
+}
+
+.mobile-nav {
+	display: none;
+	float: right;
+	width: 6%;
+	margin: 1em;
+}
+
+.clearfix:after {
+     content: ".";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+}
