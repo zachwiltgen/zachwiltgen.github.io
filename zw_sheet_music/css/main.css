@@ -9,137 +9,16 @@ body {
 	color: #fff;
 }
 
-iframe, header img, audio, nav, h1, form, #history p, #history img, #videos, #about p, #cta, #help p, #how div.icon, .left, .right {
-	float: left;
-}
-
-#contact > p, #featured, h1, header div, .container, #how, #contact, #contact img, #help, #papers, #aboutform {
-	margin: 0 auto;
-}
-
-header, #about, #featured, #how, #contact, #contact img, #benefits, .greenaudio, .blueaudio {
-	clear: both;
-}
-
-#intro, #history p, form, #help > p, #papers, .left, #aboutcta {
-	width: 60%;
-}
-
-#history, #contact, #about, #featured, footer, #help, #papers {
-	padding: 3em 0;
-}
-
-input, textarea, header, #about, #featured, #how, #contact img {
-	display: block;
-}
-
-header div, .container, #contact, #featured, #benefits, #help {
-	width: 61em;
-}
-
-form p, footer p, #aboutform p, .right, #aboutcta {
-	text-align: center;
-}
-
-#history img, #cta, .right {
-	width: 40%;
-}
-
-img, #sheets, p, #intro {
-	text-align: left;
-}
-
-p, input, textarea, #submit {
-	font-family: 'Sanchez', serif;
-}
-
-#contact h1 {
-	padding: .5em 0;
-}
-
-a, #sheets a, #how div {
-	color: #fff;
-}
-
-.blueaudio:hover, #submit:hover, #how img {
-	background: #5e9ff2;
-}
-
-header img, nav {
-	display: inline;
-}
-
-input, textarea {
-	font-size: 1.2em;
-	width: 37em;
-	height: 3em;
-	border: none;
-	margin: .5em auto;
-	color: #5a6b8c;
-	padding: 1em;
-}
-
-header, footer {
-	background: #5a6b8c;
-}
-
-#submit, .greenaudio:hover {
-	background: #458c5e;
-}
-
-#about, .greenaudio {
-	background: rgba(69, 140, 94, 0.5);
-}
-
-#email:hover, #sheets a:hover{
-	color: rgba(255, 255, 255, 0.5);
-}
-
-#how, .blueaudio {
-	background: rgba( 94, 159, 242, 0.5);
-}
-
-#sheets a, #sheets p {
-	font-family: 'Open Sans', sans-serif;
-	padding: 1.25em;
-}
-
-.greenaudio, .blueaudio {
-	padding: 1.5em 1em;
-}
-
-p {
-	padding: 1.5em;
-	line-height: 1.25em;
-}
-
-a {
-	text-decoration: none;
-}
-
-nav {
-	padding-top: 4.15em;
-}
-
-iframe {
-	width: 100%;
-	padding: 0 4em;
-}
-
 header {
+	background: #5a6b8c;
+	clear: both;
+	display: block;
 	height: 6.07em;
 }
 
-header img {
-	width: 15em;
-}
-
-nav a {
-	margin: 2.5em;
-	padding: .25em;
-}
-
 h1 {
+	float: left;
+	margin: 0 auto;
 	font-size: 3em;
 	font-weight: bold;
 	line-height: 1em;
@@ -148,71 +27,198 @@ h1 {
 	text-align: right;
 }
 
+p {
+	font-family: 'Sanchez', serif;
+	line-height: 1.25em;
+	padding: 1.5em;
+	text-align: left;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+img {
+	text-align: left;
+}
+
+nav {
+	float: left;
+	display: inline;
+	padding-top: 4.2em;
+}
+
+iframe {
+	float: left;
+	width: 100%;
+	padding: 0 4em;
+}
+
+audio {
+	float: left;
+}
+
 form {
+	float: left;
+	width: 60%;
 	font-size: .75em;
 }
 
-header img:hover {
-	content: url(../images/zwmusiccustoms.svg);
+input, textarea {
+	border: none;
+	color: #5a6b8c;
+	display: block;
+	font-family: 'Sanchez', serif;
+	font-size: 1.2em;
+	height: 3em;
+	margin: .5em auto;
+	padding: 1em;
+	width: 37em;
 }
 
-nav a:hover {
-	border-bottom: .3em solid #5e9ff2;
+footer {
+	background: #5a6b8c;
+	padding: 3em 0;
 }
 
-a:visited {
-	color: inherit;
+header div {
+	margin: 0 auto;
+	width: 61em;
 }
 
-#help h1 {
-	float: right;
+header img {
+	float: left;
+	display: inline;
+	width: 15em;
 }
 
-#featured h1 {
-	margin-top: 1.7em;
-}	
-
-#contact h1 {
-	width: 100%;
+nav a {
+	padding: .25em 0;
+}
+form p, footer p {
 	text-align: center;
-} 
-
-#contact img {
-	width: 4em;
 }
 
-#contact img:hover {
-	transform: translate(0, 0.25em);
+.container {
+	margin: 0 auto;
+	width: 61em;
+}
+
+.left {
+	float: left;
+	width: 60%;
+}
+
+.right {
+	float: left;
+	text-align: center;
+	width: 40%;
+	margin-top: 1em;
+}
+
+.greenaudio {
+	background: rgba(69, 140, 94, 0.5);
+	clear: both;
+	padding: 1.5em 1em;
+}
+
+.blueaudio {
+	background: rgba( 94, 159, 242, 0.5);
+	clear: both;
+	padding: 1.5em 1em;
+}
+
+#videos {
+	float: left;
+	width: 74%;
+}
+
+#cta {
+	float: left;
+	width: 40%;
+}
+
+#featured {
+	margin: 0 auto;
+	clear: both;
+	padding: 3em 0;
+	display: block;
+	width: 61em;
+}
+
+#how {
+	margin: 0 auto;
+	clear: both;
+	display: block;
+	background: rgba( 94, 159, 242, 0.25);
+}
+
+#contact {
+	margin: 0 auto;
+	clear: both;
+	padding: 3em 0;
+	width: 61em;
+}
+
+#help {
+	margin: 0 auto;
+	padding: 3em 0;
+	width: 61em;
+}
+
+#papers {
+	margin: 0 auto;
+	width: 60%;
+	padding: 3em 0;
+}
+
+#aboutform {
+	margin: 0 auto;
+	float: none;
+}
+
+#about {
+	background: rgba(69, 140, 94, 0.25);
+	clear: both;
+	display: block;
+	padding: 3em 0;
+}
+
+#benefits {
+	clear: both;
+	padding-top: 2.5em;
+	width: 61em;
+}
+
+#intro {
+	text-align: left;
+	width: 60%;
+}
+
+#aboutcta {
+	text-align: center;
+	width: 60%;
+}
+
+#sheets {
+	text-align: left;
+	padding-bottom: 4em;
+}
+
+#submit {
+	background: #458c5e;
+	border-radius: 0.25em;
+	box-shadow: 0 5px 0 0 #2c593c;
+	color: inherit;
+	font-family: inherit;
 }
 
 #details {
 	height: 12em;
 }
 
-#how div.icon {
-	width: 33.33%;
-}
-
-#how div.icon p {
-	width: 100%;
-	padding: 1.5em;
-}
-
-#how img {
-	width: 6em;
-	border-radius: 100%;
-	padding: 1.2em 0;
-}
-
-#how img:hover {
-	transform: scale(1.25, 1.25);
-}
-
-#videos {
-	width: 74%;
-}
-
-#title1 {
+#title1, #title2, #title3 {
 	float: left;
 	width: 26%;
 }
@@ -223,20 +229,10 @@ a:visited {
 	border-right: .25em solid #458c5e;
 }
 
-#title2 {
-	float: left;
-	width: 26%;
-}
-
 #title2 h1 {
 	float: none;
 	margin: 2em 0;
 	border-right: .25em solid #5a6b8c;
-}
-
-#title3 {
-	float: left;
-	width: 26%;
 }
 
 #title3 h1 {
@@ -245,40 +241,130 @@ a:visited {
 	border-right: .25em solid #5e9ff2;
 }
 
-#about p {
-	padding: 1.75em 4em;
-	width: 74%;
-}
-
 #how p {
 	padding: 3em 4em;
 	width: 74%;
 }
 
-#benefits {
-	padding-top: 2.5em;
+#history p {
+	float: left;
+	width: 60%;
 }
 
-#sheets {
-	padding-bottom: 4em;
+#history img {
+	float: left;
+	width: 40%;
+}
+
+#about p {
+	float: left;
+	padding: 1.75em 4em;
+	width: 74%;
+}
+
+#help p {
+	float: left;
+}
+
+#how div.icon {
+	float: left;
+	width: 33.33%;
+}
+
+#contact > p {
+	margin: 0 auto;
+}
+
+#contact img {
+	margin: 0 auto;
+	clear: both;
+	display: block;
+	width: 4em;
+}
+
+#help > p {
+	width: 60%;
+}
+
+#aboutform p {
+	text-align: center;
+}
+
+#contact h1 {
+	padding: .5em 0;
+	width: 100%;
+	text-align: center;
+}
+
+#sheets a {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 1.25em;
+}
+
+#how div {
+	color: #fff;
+}
+
+#how img {
+	background: #5e9ff2;
+	border-radius: 100%;
+	padding: 1.2em 0;
+	width: 6em;
 }
 
 #sheets p {
+	font-family: 'Open Sans', sans-serif;
 	padding: .3em 0;
 }
 
-.right {
-	margin-top: 1em;
+#help h1 {
+	float: right;
 }
 
-#aboutform {
-	float: none;
+#featured h1 {
+	margin-top: 1.7em;
 }
 
-#submit {
+#how div.icon p {
+	width: 100%;
+	padding: 1.5em;
+}
+
+a:visited {
 	color: inherit;
-	font-family: inherit;
-	border-radius: 0.25em;
+}
+
+.blueaudio:hover {
+	background: #5e9ff2;
+}
+
+.greenaudio:hover {
+	background: #458c5e;
+}
+
+#email:hover, #sheets a:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#submit:hover {
+	background: #4e9e6a;
+}
+
+header img:hover {
+	content: url(../images/zwmusiccustoms.svg)
+}
+
+nav a:hover {
+	border-bottom: .3em solid #5e9ff2;
+}
+
+#contact img:hover {
+	transform: translate(0, 0.25em);
+}
+
+#how img:hover {
+	transform: scale(1.25, 1.25);
 }
 
 .menu-btn div {
@@ -362,11 +448,34 @@ a:visited {
 		display: none;
 	}
 
+	form {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	iframe {
+		padding: 2em 3em;
+	}
+
 	.mobile-nav {
 		display: block;
 	}
 
-	#title1 h1, #title2 h1, #title3 h1 {
+	#videos {
+		clear: both;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#cta {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#title1 h1 {
+		border-bottom: .25em solid #458c5e;
 		text-align: left;
 		border-right: none;
 		margin: 0;
@@ -374,27 +483,27 @@ a:visited {
 		padding: .25em 0;
 	}
 
-	#title1 h1 {
-		border-bottom: .25em solid #458c5e;
-	}
-
 	#title2 h1 {
 		border-bottom: .25em solid #5a6b8c;
+		text-align: left;
+		border-right: none;
+		margin: 0;
+		margin-left: 1em;
+		padding: .25em 0;
 	}
 
 	#title3 h1 {
 		border-bottom: .25em solid #5e9ff2;
+		text-align: left;
+		border-right: none;
+		margin: 0;
+		margin-left: 1em;
+		padding: .25em 0;
 	}
 
 	#about p, #how p {
 		width: 100%;
 		padding: 2em 3em;
-	}
-
-	#videos {
-		clear: both;
-		width: 100%;
-		margin: 0 auto;
 	}
 
 	#how div.icon {
@@ -404,27 +513,12 @@ a:visited {
 		padding: 1em 0;
 	}
 
-	#how div.icon p, #how img {
-		float: left;
-	}
-
 	#how div.icon p {
+		float: left;
 		width: 75%;
 	}
 
-	iframe {
-		padding: 2em 3em;
-	}
-
-	#cta {
-		float: none;
-		width: 80%;
-		margin: 0 auto;
-	}
-
-	form {
-		float: none;
-		width: 100%;
-		margin: 0 auto;
+	#how img {
+		float: left;
 	}
 }

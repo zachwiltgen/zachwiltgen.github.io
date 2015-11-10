@@ -9,26 +9,11 @@ body {
 	color: #fff;
 }
 
-iframe {
-	float: left;
-	width: 100%;
-	padding: 0 4em;
-}
-
-header img {
-	float: left;
-	display: inline;
-	width: 15em;
-}
-
-audio {
-	float: left;
-}
-
-nav {
-	float: left;
-	display: inline;
-	padding-top: 4.15em;
+header {
+	background: #5a6b8c;
+	clear: both;
+	display: block;
+	height: 6.07em;
 }
 
 h1 {
@@ -42,46 +27,79 @@ h1 {
 	text-align: right;
 }
 
+p {
+	font-family: 'Sanchez', serif;
+	line-height: 1.25em;
+	padding: 1.5em;
+	text-align: left;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+img {
+	text-align: left;
+}
+
+nav {
+	float: left;
+	display: inline;
+	padding-top: 4.15em;
+}
+
+iframe {
+	float: left;
+	width: 100%;
+	padding: 0 4em;
+}
+
+audio {
+	float: left;
+}
+
 form {
 	float: left;
 	width: 60%;
 	font-size: .75em;
 }
 
-#history p {
-	float: left;
-	width: 60%;
+input, textarea {
+	border: none;
+	color: #5a6b8c;
+	display: block;
+	font-family: 'Sanchez', serif;
+	font-size: 1.2em;
+	height: 3em;
+	margin: .5em auto;
+	padding: 1em;
+	width: 37em;
 }
 
-#history img {
-	float: left;
-	width: 40%;
+footer {
+	background: #5a6b8c;
+	padding: 3em 0;
 }
 
-#videos {
-	float: left;
-	width: 74%;
+header div {
+	margin: 0 auto;
+	width: 61em;
 }
 
-#about p {
+header img {
 	float: left;
-	padding: 1.75em 4em;
-	width: 74%;
+	display: inline;
+	width: 15em;
 }
 
-#cta {
-	float: left;
-	width: 40%;
+form p, footer p {
+	text-align: center;
 }
 
-#help p {
-	float: left;
-
-}
-
-#how div.icon {
-	float: left;
-	width: 33.33%;
+.container {
+	margin: 0 auto;
+	width: 61em;
 }
 
 .left {
@@ -94,12 +112,28 @@ form {
 	text-align: center;
 	width: 40%;
 	margin-top: 1em;
-
 }
 
-#contact > p {
-	margin: 0 auto;
+.greenaudio {
+	background: rgba(69, 140, 94, 0.5);
+	clear: both;
+	padding: 1.5em 1em;
+}
 
+.blueaudio {
+	background: rgba( 94, 159, 242, 0.5);
+	clear: both;
+	padding: 1.5em 1em;
+}
+
+#videos {
+	float: left;
+	width: 74%;
+}
+
+#cta {
+	float: left;
+	width: 40%;
 }
 
 #featured {
@@ -107,16 +141,6 @@ form {
 	clear: both;
 	padding: 3em 0;
 	display: block;
-	width: 61em;
-}
-
-header div {
-	margin: 0 auto;
-	width: 61em;
-}
-
-.container {
-	margin: 0 auto;
 	width: 61em;
 }
 
@@ -134,14 +158,6 @@ header div {
 	width: 61em;
 }
 
-#contact img {
-	margin: 0 auto;
-	clear: both;
-	display: block;
-	width: 4em;
-
-}
-
 #help {
 	margin: 0 auto;
 	padding: 3em 0;
@@ -152,19 +168,11 @@ header div {
 	margin: 0 auto;
 	width: 60%;
 	padding: 3em 0;
-
 }
 
 #aboutform {
 	margin: 0 auto;
 	float: none;
-}
-
-header {
-	background: #5a6b8c;
-	clear: both;
-	display: block;
-	height: 6.07em;
 }
 
 #about {
@@ -180,24 +188,8 @@ header {
 	width: 61em;
 }
 
-.greenaudio {
-	background: rgba(69, 140, 94, 0.5);
-	clear: both;
-	padding: 1.5em 1em;
-}
-
-.blueaudio {
-	background: rgba( 94, 159, 242, 0.5);
-	clear: both;
-	padding: 1.5em 1em;
-}
-
 #intro {
 	text-align: left;
-	width: 60%;
-}
-
-#help > p {
 	width: 60%;
 }
 
@@ -206,49 +198,9 @@ header {
 	width: 60%;
 }
 
-footer {
-	background: #5a6b8c;
-	padding: 3em 0;
-}
-
-input, textarea {
-	border: none;
-	color: #5a6b8c;
-	display: block;
-	font-family: 'Sanchez', serif;
-	font-size: 1.2em;
-	height: 3em;
-	margin: .5em auto;
-	padding: 1em;
-	width: 37em;
-}
-
-form p {
-	text-align: center;
-}
-
-footer p {
-	text-align: center;
-}
-
-#aboutform p {
-	text-align: center;
-}
-
-img {
-	text-align: left;
-}
-
 #sheets {
 	text-align: left;
 	padding-bottom: 4em;
-}
-
-p {
-	font-family: 'Sanchez', serif;
-	line-height: 1.25em;
-	padding: 1.5em;
-	text-align: left;
 }
 
 #submit {
@@ -258,15 +210,86 @@ p {
 	font-family: inherit;
 }
 
+#details {
+	height: 12em;
+}
+
+#title1, #title2, #title3 {
+	float: left;
+	width: 26%;
+}
+
+#title1 h1 {
+	float: none;
+	margin: .5em 0;
+	border-right: .25em solid #458c5e;
+}
+
+#title2 h1 {
+	float: none;
+	margin: 2em 0;
+	border-right: .25em solid #5a6b8c;
+}
+
+#title3 h1 {
+	float: none;
+	margin: .5em 0;
+	border-right: .25em solid #5e9ff2;
+}
+
+#how p {
+	padding: 3em 4em;
+	width: 74%;
+}
+
+#history p {
+	float: left;
+	width: 60%;
+}
+
+#history img {
+	float: left;
+	width: 40%;
+}
+
+#about p {
+	float: left;
+	padding: 1.75em 4em;
+	width: 74%;
+}
+
+#help p {
+	float: left;
+}
+
+#how div.icon {
+	float: left;
+	width: 33.33%;
+}
+
+#contact > p {
+	margin: 0 auto;
+}
+
+#contact img {
+	margin: 0 auto;
+	clear: both;
+	display: block;
+	width: 4em;
+}
+
+#help > p {
+	width: 60%;
+}
+
+#aboutform p {
+	text-align: center;
+}
+
 #contact h1 {
 	padding: .5em 0;
 	width: 100%;
 	text-align: center;
-}
-
-a {
-	color: #fff;
-	text-decoration: none;
 }
 
 #sheets a {
@@ -286,41 +309,9 @@ a {
 	width: 6em;
 }
 
-.blueaudio:hover {
-	background: #5e9ff2;
-}
-
-#submit:hover {
-	background: #5e9ff2;
-}
-
-.greenaudio:hover {
-	background: #458c5e;
-}
-
-#email:hover {
-	color: rgba(255, 255, 255, 0.5);
-}
-
-#sheets a:hover {
-	color: rgba(255, 255, 255, 0.5);
-}
-
 #sheets p {
 	font-family: 'Open Sans', sans-serif;
 	padding: .3em 0;
-}
-
-header img:hover {
-	content: url(../images/zwmusiccustoms.svg)
-}
-
-nav a:hover {
-	border-bottom: .3em solid #5e9ff2;
-}
-
-a:visited {
-	color: inherit;
 }
 
 #help h1 {
@@ -331,62 +322,44 @@ a:visited {
 	margin-top: 1.7em;
 }
 
-#contact img:hover {
-	transform: translate(0, 0.25em);
-}
-
-#details {
-	height: 12em;
-}
-
 #how div.icon p {
 	width: 100%;
 	padding: 1.5em;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.blueaudio:hover, #submit:hover {
+	background: #5e9ff2;
+}
+
+.greenaudio:hover {
+	background: #458c5e;
+}
+
+#email:hover, #sheets a:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+header img:hover {
+	content: url(../images/zwmusiccustoms.svg)
+}
+
+nav a:hover {
+	border-bottom: .3em solid #5e9ff2;
+}
+
+#contact img:hover {
+	transform: translate(0, 0.25em);
 }
 
 #how img:hover {
 	transform: scale(1.25, 1.25);
 }
 
-#title1 {
-	float: left;
-	width: 26%;
-}
-
-#title1 h1 {
-	float: none;
-	margin: .5em 0;
-	border-right: .25em solid #458c5e;
-}
-
-#title2 {
-	float: left;
-	width: 26%;
-}
-
-#title2 h1 {
-	float: none;
-	margin: 2em 0;
-	border-right: .25em solid #5a6b8c;
-}
-
-#title3 {
-	float: left;
-	width: 26%;
-}
-
-#title3 h1 {
-	float: none;
-	margin: .5em 0;
-	border-right: .25em solid #5e9ff2;
-}
-
-#how p {
-	padding: 3em 4em;
-	width: 74%;
-}
-
-..menu-btn div {
+.menu-btn div {
 	position: absolute;
 	left: 100%;
 	top: 64%;
@@ -431,4 +404,113 @@ a:visited {
      display: block;
      height: 0;
      clear: both;
+}
+
+@media only screen and (max-width: 1233px) {
+	header div, .container, #contact, #featured, #benefits, #help {
+		width: 100%;
+	}
+
+	input, textarea {
+		width: 90%;
+	}
+
+	nav a {
+		margin: 1.25em;
+	}
+
+	#title1, #title2, #title3 {
+		width: 16em;
+	}
+
+	#about p, #videos, #how p {
+		width: 65%;
+	}
+
+	#how p {
+		padding: 2em 4em;
+	}
+}
+
+@media only screen and (max-width: 952px) {
+	body {
+		font-size: 16px;
+	}
+	nav {
+		display: none;
+	}
+
+	form {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	iframe {
+		padding: 2em 3em;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	#videos {
+		clear: both;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#cta {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#title1 h1 {
+		border-bottom: .25em solid #458c5e;
+		text-align: left;
+		border-right: none;
+		margin: 0;
+		margin-left: 1em;
+		padding: .25em 0;
+	}
+
+	#title2 h1 {
+		border-bottom: .25em solid #5a6b8c;
+		text-align: left;
+		border-right: none;
+		margin: 0;
+		margin-left: 1em;
+		padding: .25em 0;
+	}
+
+	#title3 h1 {
+		border-bottom: .25em solid #5e9ff2;
+		text-align: left;
+		border-right: none;
+		margin: 0;
+		margin-left: 1em;
+		padding: .25em 0;
+	}
+
+	#about p, #how p {
+		width: 100%;
+		padding: 2em 3em;
+	}
+
+	#how div.icon {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+		padding: 1em 0;
+	}
+
+	#how div.icon p {
+		float: left;
+		width: 75%;
+	}
+
+	#how img {
+		float: left;
+	}
 }
