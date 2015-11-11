@@ -112,6 +112,7 @@ footer section {
 	margin: 0 auto;
 	width: 61em;
 }
+
 #footernav, #footerlinks {
 	float: left;
 	text-align: left;
@@ -455,8 +456,12 @@ footer a:hover {
 		margin: 1.25em;
 	}
 
-	header > div, .container, #contact, #featured, #benefits, #help {
+	header > div, .container, #contact, #featured, #benefits, #help, footer section {
 		width: 100%;
+	}
+
+	#footernav, #footerlinks {
+		width: 13em;
 	}
 
 	.mobile-nav {
