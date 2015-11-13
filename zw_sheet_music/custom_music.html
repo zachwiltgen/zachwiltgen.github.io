@@ -5,22 +5,36 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
-	<header>
+	<header class="clearfix">
 		<div>
 			<a href="index.html"><img src="images/zwmusiccustoms.svg" alt="ZW Sheet Music Logo" title="Logo"></a>
-			<section id="questions">
-				<a href="index.html#form">Questions?</a>
-				<p>Email me at <a id="email" href="mailto:zach.m.wiltgen@gmail.com">zach.m.wiltgen@gmail.com</a></p>
-			</section>
+			<nav>
+				<a href="index.html#customs">Custom Music</a>
+				<a href="sheet_music.html">Sheet Music</a>
+				<a href="about.html">About</a>
+				<a href="index.html#form">Inquiries</a>
+			</nav>
 		</div>
-		<nav class="clearfix">
-			<a href="index.html">Home</a>
-			<a href="custom_music.html">Custom Music</a>
-			<a href="sheet_music.html">Sheet Music</a>
-			<a href="about.html">About</a>
-		</nav>
+		<div class="mobile-nav">
+	     		<div class="menu-btn" id="menu-btn">
+				<div></div>
+				<span></span>
+				<span></span>
+				<span></span>
+	     		</div>
+			<div class="responsive-menu">
+	        		<ul>
+	           		<li><a href="index.html#customs">Custom Music</a></li>
+	           		<li><a href="sheet_music.html">Sheet Music</a></li>
+	           		<li><a href="about.html">About</a></li>
+	           		<li><a href="index.html#form">Inquiries</a></li>
+	        		</ul>
+	     		</div>
+		</div>
 	</header>
 	<section id="businessModel">
 		<video controls poster="images/poster_images.png">
@@ -44,8 +58,27 @@
 				</div>
 		</section>
 	</section>
-	<footer>
-	<p>&copy; 2015 ZW Music Customs</p>
+	<footer class="clearfix">
+		<section>
+			<div id="footernav">
+				<a href="index.html#customs">Custom Music</a><br>
+				<a href="sheet_music.html">Sheet Music</a><br>
+				<a href="about.html">About</a><br>
+				<a href="index.html#form">Inquiries</a>
+			</div>
+			<div id="footerlinks">
+				<a href="#">Site Map</a><br>
+				<a href="#">Terms and Conditions</a>
+			</div>
+		</section>
+		<p>&copy; ZW Music Customs All Rights Reserved</p>
 	</footer>
+	<script type="text/javascript">
+		jQuery(function($){
+			$( '.menu-btn' ).click(function(){
+				$('.responsive-menu').toggleClass('expand')
+			})
+		})
+	</script>
 </body>
 </html>

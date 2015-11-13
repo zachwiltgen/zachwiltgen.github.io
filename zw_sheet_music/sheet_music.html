@@ -11,29 +11,29 @@
 <body>
 	<header class="clearfix">
 		<div>
-		<a href="index.html"><img src="images/zwmusiccustoms_hover2	.svg" alt="ZW Sheet Music Logo" title="Logo"></a>
-		<nav>
-			<a href="index.html#customs">Custom Music</a>
-			<a href="sheet_music.html">Sheet Music</a>
-			<a href="about.html">About</a>
-			<a href="index.html#form">Inquiries</a>
-		</nav>
+			<a href="index.html"><img src="images/zwmusiccustoms.svg" alt="ZW Sheet Music Logo" title="Logo"></a>
+			<nav>
+				<a href="index.html#customs">Custom Music</a>
+				<a href="sheet_music.html">Sheet Music</a>
+				<a href="about.html">About</a>
+				<a href="index.html#form">Inquiries</a>
+			</nav>
 		</div>
 		<div class="mobile-nav">
-     		<div class="menu-btn" id="menu-btn">
-			<div></div>
-			<span></span>
-			<span></span>
-			<span></span>
-     		</div>
+	     		<div class="menu-btn" id="menu-btn">
+				<div></div>
+				<span></span>
+				<span></span>
+				<span></span>
+	     		</div>
 			<div class="responsive-menu">
-        		<ul>
-           		<li><a href="index.html#customs">Custom Music</a></li>
-           		<li><a href="sheet_music.html">Sheet Music</a></li>
-           		<li><a href="about.html">About</a></li>
-           		<li><a href="index.html#form">Inquiries</a></li>
-        		</ul>
-     		</div>
+	        		<ul>
+	           		<li><a href="index.html#customs">Custom Music</a></li>
+	           		<li><a href="sheet_music.html">Sheet Music</a></li>
+	           		<li><a href="about.html">About</a></li>
+	           		<li><a href="index.html#form">Inquiries</a></li>
+	        		</ul>
+	     		</div>
 		</div>
 	</header>
 	<section class="container">
@@ -49,8 +49,11 @@
 				</div>
 				<div class="right">
 					<a href="#">Preview PDF</a>
-					<a href="#">Details</a>
+					<a href="#" id="trigger">Details</a>
 					<a href="#">Purchase</a>
+				</div>
+				<div class="description">
+					<p>Our sheet music makes great warm&#8209;ups and performance pieces for drumlines. Preview each composition with audio or a PDF sample and find the right piece for you.</p>
 				</div>
 			</div>
 			<div class="blueaudio clearfix">
@@ -61,10 +64,13 @@
 					Your browser does not support the audio element.
 					</audio>
 				</div>
-			<div class="right">
+				<div class="right">
 					<a href="#">Preview PDF</a>
-					<a href="#">Details</a>
+					<a href="#" id="trigger">Details</a>
 					<a href="#">Purchase</a>
+				</div>
+				<div class="description">
+					<p>Our blah blah sheet music makes great warm&#8209;ups and performance pieces for drumlines. Preview each composition with audio or a PDF sample and find the right piece for you.</p>
 				</div>
 			</div>
 			<div class="greenaudio clearfix">
@@ -77,8 +83,11 @@
 				</div>
 				<div class="right">
 					<a href="#">Preview PDF</a>
-					<a href="#">Details</a>
+					<a href="#" id="trigger">Details</a>
 					<a href="#">Purchase</a>
+				</div>
+				<div class="description">
+					<p>Our sheet music makes great warm&#8209;ups and performance pieces for drumlines. Preview each composition with audio or a PDF sample and find the right piece for you.</p>
 				</div>
 			</div>
 			<div class="blueaudio clearfix">
@@ -91,8 +100,11 @@
 				</div>
 				<div class="right">
 					<a href="#">Preview PDF</a>
-					<a href="#">Details</a>
+					<a href="#" id="trigger">Details</a>
 					<a href="#">Purchase</a>
+				</div>
+				<div class="description">
+					<p>Our sheet music makes great warm&#8209;ups and performance pieces for drumlines. Preview each composition with audio or a PDF sample and find the right piece for you.</p>
 				</div>
 			</div>
 			<div class="greenaudio clearfix">
@@ -105,8 +117,11 @@
 				</div>
 				<div class="right">
 					<a href="#">Preview PDF</a>
-					<a href="#">Details</a>
+					<a href="#" id="trigger">Details</a>
 					<a href="#">Purchase</a>
+				</div>
+				<div class="description">
+					<p>Our sheet music makes great warm&#8209;ups and performance pieces for drumlines. Preview each composition with audio or a PDF sample and find the right piece for you.</p>
 				</div>
 			</div>
 			<div class="blueaudio clearfix">
@@ -119,14 +134,29 @@
 				</div>
 				<div class="right">
 					<a href="#">Preview PDF</a>
-					<a href="#">Details</a>
+					<a href="#" id="trigger">Details</a>
 					<a href="#">Purchase</a>
+				</div>
+				<div class="description">
+					<p>Our sheet music makes great warm&#8209;ups and performance pieces for drumlines. Preview each composition with audio or a PDF sample and find the right piece for you.</p>
 				</div>
 			</div>
 		</section>
 	</section>
 	<footer class="clearfix">
-		<p>&copy; 2015 ZW Music Customs</p>
+		<section>
+			<div id="footernav">
+				<a href="index.html#customs">Custom Music</a><br>
+				<a href="sheet_music.html">Sheet Music</a><br>
+				<a href="about.html">About</a><br>
+				<a href="index.html#form">Inquiries</a>
+			</div>
+			<div id="footerlinks">
+				<a href="#">Site Map</a><br>
+				<a href="#">Terms and Conditions</a>
+			</div>
+		</section>
+		<p>&copy; ZW Music Customs All Rights Reserved</p>
 	</footer>
 	<script type="text/javascript">
 		jQuery(function($){
@@ -134,6 +164,23 @@
 				$('.responsive-menu').toggleClass('expand')
 			})
 		})
+		$(document).ready(function(){
+	  var menu = $('.description')
+	  $('#trigger').click(function(event){
+	      event.preventDefault();
+	      if (menu.is(":visible"))
+	      {
+	          menu.slideUp(400);
+	          $(this).removeClass("open");
+	      }
+	      else
+	      {
+	          menu.slideDown(400);
+	          $(this).addClass("open");
+	      }
+	  }); 
+	});
 	</script>
+
 </body>
 </html>
