@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<section id="left">
+	      <label for="form_name">Name</label>
+	      <input name="form_name" id="form_name" type="text" >
+
+	      <label for="form_email">Email</label>
+	      <input name="form_email" id="form_email" type="email" >
+	   </section>
+
+	   <section id="right">
+	      <label for="form_msg">Message</label>
+	      <textarea name="form_msg" id="form_msg"></textarea>
+	      <input id="submit" class="button" name="submit" type="submit" value="Send">
+	   </section>
+	</form>
+
+	<script>
+		var data = {
+		    name: $("#form_name").val(),
+		    email: $("#form_email").val(),
+		    message: $("#msg_text").val()
+		};
+		$.ajax({
+		    type: "POST",
+		    url: "ajaxemail.php",
+		    data: data,
+		    success: function(){
+		        $('.success').fadeIn(1000);
+	    	}
+		});
+	</script>
+</body>
+</html>
