@@ -420,14 +420,38 @@ footer a:hover {
 	z-index: 99;
 }
 
+.mobile-nav:hover {
+	cursor: pointer;
+} 
+
 .responsive-menu {
 	display: none;
-	list-style: none;
 	text-align: right;
+	position: absolute;
+}
+
+.responsive-menu a {
+	font-size: 1.5em;
+	margin: 3em 1em;
+}
+
+.responsive-menu a:hover {
+	color: rgba( 255, 255, 255, 0.5);
 }
 
 .expand {
-	display: block !important; 
+	display: block !important;
+	background: rgba( 0, 0, 0, 0.6);
+	text-align: right;
+	top: 124%;
+	height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    padding: 8em 0;
+    z-index: -1;
 }
 
 .mobile-nav {
@@ -436,6 +460,8 @@ footer a:hover {
 	top: 3px;
 	display: none;
 	margin: 1em;
+	width: 1em;
+	z-index: 99;
 }
 
 .clearfix:after {
@@ -644,6 +670,10 @@ footer a:hover {
 	.mobile-nav {
 		left: 80%;
 	}
+
+	#about p, iframe, #help p {
+		padding: 2em 2.5em;
+	}
 }
 
 @media only screen and (max-width: 326px) {
@@ -669,5 +699,9 @@ footer a:hover {
 
 	.mobile-nav {
 		margin: 0;
+	}
+
+	#about p, iframe, #help p {
+		padding: 1em;
 	}
 }	
