@@ -709,6 +709,10 @@ footer a:hover {
 		width: 95%;
 	}
 
+	#how div.icon p {
+		padding: .5em;
+	}
+
 	#title3 h1 {
 		width: 100%;
 	}
