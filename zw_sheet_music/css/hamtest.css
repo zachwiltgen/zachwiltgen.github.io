@@ -399,43 +399,133 @@ footer a:hover {
 	color: rgba( 255, 255, 255, 0.5);
 }
 
-.menu-btn div {
-	position: absolute;
-	right: 20px;
-	top: 7px;
-	margin-top: 1em;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 200;
-	vertical-align: middle;
-	z-index: 99;
+button {
+	font-family: "Open Sans",helvetica,arial,sans-serif;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    outline: 0;
+    vertical-align: middle;
 }
 
-.menu-btn span {
+#menuButton {
+	position: absolute;
+	bottom: 18.4375rem;
+	background: none;
+	font-size: 0.875rem;
+	width: 3.2em;
+	height: 3.2em;
+	z-index: 2;
+	display: none;
+}
+
+#menuButton[data-state="on"] {
+	right: 16.5625rem;
+	transition: right 0.3s 0.1s;
+}
+
+#menuButton>div {
+	transition: transform 0.1s;
+    position: absolute;
+    width: 1.1em;
+    height: 0.2em;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    display: block;
+    font-size: 0.875rem;
+}
+
+#menuButton>div.tl {
+	transform-origin: 0.4em 0.1em;
+    top: 0.8em;
+    left: 0.5em;
+}
+
+#menuButton[data-state="on"]>div.tl {
+	transform: rotate(45deg) translate(0.3em, 0);
+}
+
+#menuButton>div.tr {
+	transform-origin: 0.7em 0.1em;
+    top: 0.8em;
+    right: 0.5em;
+}
+
+#menuButton[data-state="on"]>div.tr {
+	transform: rotate(-45deg) translate(-0.3em, 0);
+}
+
+#menuButton>div.m {
+	transform-origin: 1.1em 0.1em;
+    top: 50%;
+    left: 0.5em;
+    width: 2.2em;
+    margin-top: -0.1em;
+}
+
+#menuButton[data-state="on"]>div.m {
+	transform: scale(0, 1);
+}
+
+#menuButton>div.br {
+	transform-origin: 0.7em 0.1em;
+    bottom: 0.8em;
+    right: 0.5em;
+}
+
+#menuButton[data-state="on"]>div.br {
+	transform: rotate(45deg) translate(-0.3em, 0);
+}
+
+#menuButton>div.bl {
+	transform-origin: 0.4em 0.1em;
+    bottom: 0.8em;
+    left: 0.5em;
+}
+
+#menuButton[data-state="on"]>div.bl {
+	transform: rotate(-45deg) translate(0.3em, 0);
+}
+
+#menuWrap[data-state="on"] {
+    right: -50px;
+    right: -3.125rem;
+}
+#menuWrap {
+    position: fixed;
+    top: 0;
+    right: -25rem;
+    height: 100%;
+    width: 25rem;
+    background: #242424;
+    transition: right 0.4s;
+    z-index: 1;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+#menuWrap>div {
+    position: absolute;
+    bottom: 0;
+    padding: 0 3.125rem 2.8125rem 3.125rem;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+nav#menuNav {
 	display: block;
-	width: 2.5em;
-	height: .3em;
-	margin: .75em 0;
-	background: #fff;
-	z-index: 99;
-}
-
-.responsive-menu {
-	display: none;
-	list-style: none;
-	text-align: right;
-}
-
-.expand {
-	display: block !important; 
-}
-
-.mobile-nav {
-	position: absolute;
-	left: 90%;
-	top: 3px;
-	display: none;
-	margin: 1em;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }
 
 .clearfix:after {
@@ -477,8 +567,8 @@ footer a:hover {
 		width: 100%;
 	}
 
-	.mobile-nav {
-		display: block;
+	#menuButton {
+		display: inline;
 	}
 
 	.left, .right {
@@ -613,10 +703,6 @@ footer a:hover {
 	#history p {
 		width: 90%;
 	}
-
-	.mobile-nav {
-		left: 85%;
-	}
 }
 
 @media only screen and (max-width: 546px) {
@@ -639,10 +725,6 @@ footer a:hover {
 
 	#cta p {
 		width: 100%;
-	}
-
-	.mobile-nav {
-		left: 80%;
 	}
 }
 
