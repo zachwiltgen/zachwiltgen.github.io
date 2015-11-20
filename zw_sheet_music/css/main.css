@@ -704,4 +704,16 @@ footer a:hover {
 	#about p, iframe, #help p {
 		padding: 1em;
 	}
+
+	#how div.icon {
+		width: 95%;
+	}
+
+	#title3 h1 {
+		width: 100%;
+	}
+
+	.expand {
+		padding: 5em 0;
+	}
 }	
