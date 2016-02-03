@@ -170,6 +170,27 @@ footer section {
 	padding: 1em 2em;
 }
 
+#papers, #sheets {
+	display: none;
+}
+
+#soon {
+	padding: 3em 0;
+}
+
+#soon video {
+	width: 50%;
+	height: auto;
+	padding: 3em 0;
+}
+
+#soon p {
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	padding: 0;
+}
+
 #videos {
 	float: left;
 	width: 74%;
